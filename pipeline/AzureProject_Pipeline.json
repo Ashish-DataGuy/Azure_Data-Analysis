@@ -81,7 +81,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Repos"
+					"notebookPath": "/Users/ashishdhaneshbhai.chandarana@slu.edu/HrDataset_NB"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
