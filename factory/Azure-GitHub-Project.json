@@ -1,0 +1,9 @@
+{
+	"name": "Azure-GitHub-Project",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "16e482c1-22a6-4483-a4b0-5dde43b3c02c",
+		"tenantId": "6711039e-c265-432c-b680-a3af66790e06"
+	}
+}
