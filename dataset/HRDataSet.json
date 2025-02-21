@@ -1,0 +1,68 @@
+{
+	"name": "HRDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureProjectLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "HumanResourcesDataAA5221_Expanded.csv",
+				"container": "source"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "EMP ID",
+				"type": "String"
+			},
+			{
+				"name": "satisfaction_level",
+				"type": "String"
+			},
+			{
+				"name": "last_evaluation",
+				"type": "String"
+			},
+			{
+				"name": "number_project",
+				"type": "String"
+			},
+			{
+				"name": "average_monthly_hours",
+				"type": "String"
+			},
+			{
+				"name": "time_spend_company",
+				"type": "String"
+			},
+			{
+				"name": "Work_accident",
+				"type": "String"
+			},
+			{
+				"name": "left",
+				"type": "String"
+			},
+			{
+				"name": "promotion_last_5years",
+				"type": "String"
+			},
+			{
+				"name": "department",
+				"type": "String"
+			},
+			{
+				"name": "salary",
+				"type": "String"
+			}
+		]
+	}
+}
