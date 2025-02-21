@@ -1,7 +1,7 @@
 # Azure_Data-Analysis
 **Employee Retention Analysis using Azure & Databricks**
 
-                                                                                      **Project Overview**
+**Project Overview**
 
 This project analyzes employee retention using a dataset containing various factors influencing whether an employee stays or leaves a company. The goal is to process and analyze the data using Azure Storage, Azure Data Factory, and Azure Databricks, and to showcase best practices for data pipeline creation and analysis in the cloud.
 
