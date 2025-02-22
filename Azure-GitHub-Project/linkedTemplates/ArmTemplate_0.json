@@ -263,7 +263,7 @@
 						},
 						"userProperties": [],
 						"typeProperties": {
-							"notebookPath": "/Repos"
+							"notebookPath": "/HR_Dataset 2025-02-21 17:21:12"
 						},
 						"linkedServiceName": {
 							"referenceName": "AzureDatabricks1",
