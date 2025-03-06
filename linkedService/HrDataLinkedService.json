@@ -1,0 +1,14 @@
+{
+	"name": "HrDataLinkedService",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "hr-dataset.database.windows.net",
+			"database": "hr-sql-database",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SystemAssignedManagedIdentity"
+		}
+	}
+}
